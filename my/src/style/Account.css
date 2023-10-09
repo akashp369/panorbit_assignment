@@ -1,0 +1,131 @@
+.account-select-container{
+    background-image: url("../assest/bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
+}
+.centered-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .centered-container h5{
+    margin-top: 2rem;
+  }
+  .child_container{
+    margin-top: 13%;
+    height: 55vh;
+    overflow-y: scroll;
+  }
+  .list_menu_account{
+    display: flex;
+    margin: 0rem 2rem ;
+    align-items: center;
+    border-bottom: 1px dotted #333;
+  }
+  .list_menu_account img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+
+
+
+  /* ------------home Component Css--------- */
+  .home_menu{
+    padding: 1rem;
+  }
+  .side_Bar{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .sidebar{
+    background-color: rgb(64,84,200);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  .button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgb(64,84,200);
+    color: rgb(162,162,227);
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px dotted white;
+    width: 8rem;
+  }
+  
+  .button.active {
+    /* background-color: #ccc; */
+    color: #fff;
+  }
+.main{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 1rem;
+    border-radius: 1rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #333;
+    margin: 1rem;
+  }
+
+  .logoimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoimg img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+  .coming_soon_div{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .profile{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .left{
+    /* padding: 1rem 0rem; */
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px dotted #333;
+  }
+  .left div img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+  .bottom_border{
+    border-bottom:1px dotted #333;
+  }
+  .right img{
+    width: 70%;
+    border-radius: 50px;
+  }
