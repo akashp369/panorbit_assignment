@@ -5,7 +5,7 @@ import CoomingSoon from "./CoomingSoon";
 
 const Home = () => {
   const [account, setAccount] = useState({});
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState(1);
 
   const handleButtonClick = (buttonId) => {
     setActiveButton(buttonId);
